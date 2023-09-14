@@ -17,10 +17,12 @@
 - NumPy
 - Pandas
 - Matplotlib
+- Seaborn
 - Sklearn
+- MySQL
 - Power BI
 - Git
-- MY SQL
+- AWS
 - HTML
 - CSS
 
