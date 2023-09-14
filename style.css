@@ -685,6 +685,7 @@
         align-items: center;
         justify-content: center;
         overflow-x:hidden;
+        scroll-behavior: smooth;
       }
   
       /*Intro Section*/
@@ -740,7 +741,7 @@
       }
 
       .social-links a {
-        font-size: x-small;
+        font-size: xx-small;
         padding: 11px;
       }
   
