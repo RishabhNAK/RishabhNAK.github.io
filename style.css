@@ -731,8 +731,8 @@
   
       /*Main Section*/
       .main-section {
-        font-size: x-small;
-        min-height: 60vh;
+        font-size: xx-small;
+        min-height: 62vh;
       }
   
       /*Footer Section*/
@@ -741,7 +741,7 @@
       }
 
       .social-links a {
-        font-size: xx-small;
+        font-size: x-small;
         padding: 11px;
       }
   
