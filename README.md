@@ -13,16 +13,35 @@
 
 ## Skills
 
+Programming language
 - Python
+
+Data Science Libraries
 - NumPy
 - Pandas
-- Matplotlib
-- Seaborn
+- Matplotlib/Seaborn
 - Sklearn
+
+Machine Learning
+- Regression
+- Classification
+- Clustering
+- Dimensionality Reduction
+- Model Selection
+  
+Database
 - MySQL
-- Power BI
+
+BI Tool
+- Microsoft PowerBI
+  
+Version Control
 - Git
+  
+Cloud Platforms
 - AWS
+  
+Web Development
 - HTML
 - CSS
 
