@@ -50,7 +50,7 @@ Explore some of the projects I've worked on :
   - [Car Price Prediction](https://github.com/TheMrityunjayPathak/CarPricePrediction)
   - [Spaceship Titanic Classification](https://github.com/TheMrityunjayPathak/SpaceshipTitanicClassification)
   - [Retail Store Sales Dashboard](https://github.com/TheMrityunjayPathak/RetailStoreSalesDashboard)
-  - [FinanceReportDashboard](https://github.com/TheMrityunjayPathak/FinanceReportDashboard)
+  - [Finance Report Dashboard](https://github.com/TheMrityunjayPathak/FinanceReportDashboard)
   - [Covid Pandemic Analysis](https://github.com/TheMrityunjayPathak/CovidPandemicAnalysis)
   - [India Population Analysis](https://github.com/TheMrityunjayPathak/IndiaPopulationAnalysis)
 
