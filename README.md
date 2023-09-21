@@ -71,7 +71,7 @@ Here are some of the certificates and online courses I've completed :
 ## Achievements
 I'm proud of these achievements :
 - 5 ⭐ Python HackerRank
-- 4 ⭐ SQL HackerRank
+- 5 ⭐ SQL HackerRank
 - Kaggle Expert
 
 ## LinkedIn Featured
