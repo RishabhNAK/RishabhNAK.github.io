@@ -22,26 +22,6 @@
       display: none;
     }
 
-    /*Scroll Indicator Section*/
-    .overall {
-      position: fixed;
-      top: 0;
-      z-index: 1;
-      width: 100%;
-    }
-
-    .container {
-      width: 100%;
-      height: 10px;
-    }
-      
-    .progress{
-      height: 10px;
-      background-color: #04AA6D;
-      box-shadow: 0 0 10px 1px #04AA6D;
-      width: 0%;
-    }
-
     /*Back To Top Button*/
     #btn-back-to-top {
       position: fixed;
