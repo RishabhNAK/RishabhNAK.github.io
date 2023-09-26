@@ -9,13 +9,6 @@
 </head>
 <body>
 
-  <!--Scroll Indicator Section-->
-  <div class="overall">
-    <div class="container">
-      <div class="progress" id="progBar"></div>
-    </div>
-  </div>
-
   <!--Back To Top Button-->
   <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
     <i class="fa-solid fa-arrow-up"></i>
@@ -377,18 +370,6 @@
 
   <!--Font Awesome Section-->
   <script src="https://kit.fontawesome.com/8c0140f517.js" crossorigin="anonymous"></script>
-
-  <!--Scroll Indicator Section-->
-  <script>
-  window.onscroll = function() {scrollFunction()};
-
-  function scrollFunction() {
-    var elementScroll = document.body.scrollTop || document.documentElement.scrollTop;
-    var windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    var scrollPos = (elementScroll / windowHeight) * 100;
-    document.getElementById("progBar").style.width = scrollPos + "%";
-  }
-  </script>
 
   <!--Back To Top Button-->
   <script>
