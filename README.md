@@ -1,6 +1,6 @@
 <h1 align="center">Mrityunjay Pathak</h1>
 
-![Screenshot 2023-09-11 231310](https://github.com/TheMrityunjayPathak/TheMrityunjayPathak.github.io/assets/123563634/8cb3d455-3177-4ed4-a7bf-5c29c7fffb90)
+![image](https://github.com/TheMrityunjayPathak/TheMrityunjayPathak.github.io/assets/123563634/ed9793ac-f561-4825-b38c-62ec85891749)
 
 ## Table of Contents
 - [Skills](#skills)
