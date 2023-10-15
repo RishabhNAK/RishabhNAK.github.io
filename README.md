@@ -62,9 +62,13 @@ Customize it with your own projects, content, and contact details.
 To customize the website :
 
 - Modify the HTML in `index.html` to update your project descriptions, images, and content.
+  
 - Adjust the CSS in the `style.css` file to change the styling and appearance of the website, including the glassmorphism effect.
+  
 - Utilize JavaScript in the `index.html` file for any interactive features you wish to add.
+  
 - Replace the Google Fonts and Font Awesome icons with your preferred choices by editing the links in the HTML File.
+  
 - Configure the contact form to send messages to your preferred email address by modifying the JavaScript Code.
 
 ## Technologies
@@ -77,5 +81,7 @@ This portfolio website was built using the following technologies :
 ## License
 
 - This project is licensed under the [MIT License](LICENSE). You are free to use and modify the code as needed for your own portfolio website.
+  
 - Feel free to explore the website and adapt it to your preferences to create a stunning online portfolio.
+  
 - If you have any questions or need assistance, please don't hesitate to contact me. Enjoy showcasing your work and experiences!
