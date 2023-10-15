@@ -75,7 +75,7 @@ To customize the website :
 
 This portfolio website was built using the following technologies :
 
-| HTML | CSS | JavaScript | Google Fonts | Font Awesome | Glassmorphism effect |
+| HTML | CSS | JavaScript | Google Fonts | Font Awesome | Glassmorphism Effect |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 
 ## License
