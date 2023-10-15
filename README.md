@@ -23,11 +23,9 @@
 
 ## Overview
 
-| This portfolio website serves as a digital representation of my work, skills, experiences and achievements. |
-| :---: |
+- This portfolio website serves as a digital representation of my work, skills, experiences and achievements
 
-| It showcases my projects and skills, and serves as a platform for potential collaborators, and employers to learn more about my background and abilities. |
-| :---: |
+- It showcases my projects and skills, and serves as a platform for potential collaborators, and employers to learn more about my background and abilities.
 
 ## Features
 
