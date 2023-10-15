@@ -23,19 +23,19 @@
 
 ## Features
 
-|1️⃣ **Glassmorphism Design** → The website uses a glassmorphism effect, giving it a modern and sleek look.
+1️⃣ **Glassmorphism Design** → The website uses a glassmorphism effect, giving it a modern and sleek look.
 
-|2️⃣ **Responsiveness** → The website is designed to be responsive, ensuring that it looks great on various screen sizes.
+2️⃣ **Responsiveness** → The website is designed to be responsive, ensuring that it looks great on various screen sizes.
 
-|3️⃣ **Google Fonts** → High-quality Google Fonts are used to enhance the typography and overall visual appeal of the website.
+3️⃣ **Google Fonts** → High-quality Google Fonts are used to enhance the typography and overall visual appeal of the website.
 
-|4️⃣ **Font Awesome Icons** → Font Awesome icons are used to make the website more interactive and visually appealing.
+4️⃣ **Font Awesome Icons** → Font Awesome icons are used to make the website more interactive and visually appealing.
 
-|5️⃣ **Projects Section** → A section showcasing my projects, with descriptions, datasets, and github links to the respective project pages.
+5️⃣ **Projects Section** → A section showcasing my projects, with descriptions, datasets, and github links to the respective project pages.
 
-|6️⃣ **About Me** → An About Me section to provide information about myself and my education.
+6️⃣ **About Me** → An About Me section to provide information about myself and my education.
 
-|7️⃣ **Contact Form** → A contact form allowing visitors to get in touch with me.
+7️⃣ **Contact Form** → A contact form allowing visitors to get in touch with me.
 
 ## Installation
 
