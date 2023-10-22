@@ -236,7 +236,7 @@
       margin: 0 auto;
       font-size: large;
       max-width: 800px;
-      padding-bottom: 40px;
+      padding-bottom: 5px;
     }
 
     .education-section {
@@ -281,7 +281,7 @@
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 20px;
-      padding-top: 40px;
+      padding-top: 10px;
       min-width: 800px;
     }
 
@@ -325,8 +325,7 @@
     }
 
     .proj-header {
-      padding-top: 40px;
-      padding-bottom: 40px;
+      padding-bottom: 10px;
       font-size: large;
     }
 
@@ -382,8 +381,7 @@
     }
 
     .bi-header {
-      padding-top: 40px;
-      padding-bottom: 40px;
+      padding-bottom: 10px;
       font-size: large;
     }
     
@@ -451,7 +449,7 @@
       display: flex;
       flex-direction: column;
       min-width: 800px;
-      padding-top: 40px;
+      padding-top: 10px;
     }
 
     .notebooks-text {
@@ -514,8 +512,7 @@
     }
 
     .certificates-header {
-      padding-top: 40px;
-      padding-bottom: 40px;
+      padding-bottom: 10px;
       font-size: large;
     }
 
@@ -560,7 +557,7 @@
     .achievements-card {
       display: flex;
       min-width: 800px;
-      padding-top: 40px;
+      padding-top: 10px;
     }
 
     .achievements-img {
@@ -596,11 +593,10 @@
       color: whitesmoke;
       padding-top: 40px;
       max-width: 800px;
-      padding-bottom: 40px;
     }
 
     .linkedin-header {
-      padding-top: 40px;
+      padding-bottom: 10px;
       font-size: large;
     }
 
@@ -661,7 +657,6 @@
     /*Contact Me Section*/
     .contact {
       min-width: 800px;
-      padding-top: 30px;
       background-color: rgba(255, 255, 255, 0);
       border: 2px solid rgba(255, 255, 255, 0.5);
       backdrop-filter: blur(12px);
@@ -675,7 +670,7 @@
 
     .contact-header {
       padding-top: 40px;
-      padding-bottom: 40px;
+      padding-bottom: 10px;
     }
 
     /*Form Section*/
@@ -793,7 +788,7 @@
     /*Footer Section*/
     .footer {
       color: whitesmoke;
-      padding-top: 60px;
+      padding-top: 40px;
     }
 
     /*Responsive Section*/
@@ -892,11 +887,14 @@
         margin: 0 auto;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        padding: 0;
       }
   
       .about-section {
         display: flex;
         flex-direction: column;
+        margin: 0 auto;
         padding: 1em;
       }
   
@@ -930,7 +928,8 @@
         align-items: center;
         justify-content: center;
         margin: 0 auto;
-        padding: 0;
+        padding-left: 0;
+        padding-bottom: 20px;
       }
 
       .contact-buttons .button-text-hide {
@@ -979,7 +978,7 @@
       .skills {
         font-size: small;
         width: 50%;
-        padding: 0;
+        padding-top:20px;
       }
 
       .grid-container {
@@ -1019,6 +1018,7 @@
       .projects {
         width: 92%;
         max-width: auto;
+        padding-top: 20px;
       }
 
       .project {
@@ -1029,6 +1029,7 @@
 
       .proj-header {
         font-size: small;
+        padding-bottom: 0;
       }
 
       .projects-card {
@@ -1069,11 +1070,11 @@
       .notebooks {
         max-width: 100%;
         font-size: small;
+        padding-top: 5px;
       }
 
       .notebooks-card {
         min-width: 100%;
-        padding: 10px;
       }
 
       .notebooks-text {
@@ -1093,7 +1094,7 @@
       /*Certificates Section*/
       .certificates {
         max-width: 100%;
-        padding: 0px;
+        padding-top: 10px;
         font-size: small;
       }
 
@@ -1118,7 +1119,7 @@
       /*Achievements Section*/
       .achievements {
         max-width: 100%;
-        padding: 0px;
+        padding-top: 10px;
         font-size: small;
       }
 
@@ -1128,7 +1129,7 @@
       }
 
       .achievements-img {
-        padding: 25px;
+        padding: 18px;
         max-width: 100%;
       }
 
@@ -1140,10 +1141,12 @@
       /*LinkedIn Post Section*/
       .linkedin-posts {
         max-width: 100%;
+        padding-top: 10px;
       }
 
       .linkedin-header {
         font-size: small;
+        padding-bottom: 0;
       }
 
       .post-button {
@@ -1179,6 +1182,7 @@
 
       .contact-header {
         font-size: small;
+        padding-top: 10px;
       }
 
       /*Form Section*/
