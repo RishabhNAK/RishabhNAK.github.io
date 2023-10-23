@@ -59,7 +59,7 @@
       border-radius: 8px;
     }
 
-    /*Navigation Section*/
+    /*Navigation Bar Section*/
     .navigation {
       display: flex;
       flex-direction: row;
@@ -322,6 +322,7 @@
       color: whitesmoke;
       max-width: 800px;
       padding-top: 40px;
+      margin: 0 auto;
     }
 
     .proj-header {
@@ -443,6 +444,7 @@
       max-width: 800px;
       padding-top: 40px;
       font-size: large;
+      color: whitesmoke;
     }
 
     .notebooks-card {
@@ -672,6 +674,7 @@
     .contact-header {
       padding-top: 40px;
       padding-bottom: 10px;
+      color: whitesmoke;
     }
 
     /*Form Section*/
