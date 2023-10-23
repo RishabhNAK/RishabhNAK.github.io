@@ -26,7 +26,7 @@
     #btn-back-to-top {
       position: fixed;
       bottom: 20px;
-      right: 20px;
+      right: 13px;
       display: none;
       cursor: pointer;
       background-color: rgba(255, 255, 255, 0.2);
@@ -656,6 +656,7 @@
 
     /*Contact Me Section*/
     .contact {
+      padding-top: 40px;
       min-width: 800px;
       background-color: rgba(255, 255, 255, 0);
       border: 2px solid rgba(255, 255, 255, 0.5);
@@ -788,7 +789,7 @@
     /*Footer Section*/
     .footer {
       color: whitesmoke;
-      padding-top: 40px;
+      padding-top: 60px;
     }
 
     /*Responsive Section*/
