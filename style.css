@@ -1053,7 +1053,7 @@
       }
 
       .bi-projects {
-        width: 100%;
+        width: 92%;
         max-width: auto;
       }
     
@@ -1072,13 +1072,15 @@
 
       /*Notebooks Section*/
       .notebooks {
-        max-width: 100%;
+        width: 95%;
+        max-width: auto;
         font-size: small;
         padding-top: 5px;
       }
 
       .notebooks-card {
-        min-width: 100%;
+        width: 100%;
+        min-width: auto;
       }
 
       .notebooks-text {
@@ -1097,7 +1099,8 @@
 
       /*Certificates Section*/
       .certificates {
-        max-width: 100%;
+        width: 95%;
+        max-width: auto;
         padding-top: 10px;
         font-size: small;
       }
@@ -1107,7 +1110,8 @@
       }
 
       .certificates-card {
-        min-width: 100%;
+        width: 100%;
+        min-width: auto;
       }
 
       .certificates-img {
@@ -1122,7 +1126,8 @@
 
       /*Achievements Section*/
       .achievements {
-        max-width: 100%;
+        width: 95%;
+        max-width: auto;
         padding-top: 10px;
         font-size: small;
       }
