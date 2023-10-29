@@ -46,7 +46,7 @@
 1. Clone this repository to your local machine using Git : 
 
    ```bash
-   git clone https://github.com/yourusername/your-portfolio.git
+   git clone https://github.com/TheMrityunjayPathak/TheMrityunjayPathak.github.io.git
    ```
 
 2. Navigate to the project directory :
