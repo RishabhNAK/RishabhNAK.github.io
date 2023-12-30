@@ -1,5 +1,3 @@
-![image](https://github.com/TheMrityunjayPathak/TheMrityunjayPathak.github.io/assets/123563634/ed9793ac-f561-4825-b38c-62ec85891749)
-
 # Welcome to My Portfolio Website!
   
 - This website was created using HTML, CSS, and JavaScript, and it incorporates Google Fonts and Font Awesome icons.
