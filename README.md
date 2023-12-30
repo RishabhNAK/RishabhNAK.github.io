@@ -1,11 +1,10 @@
+![image](https://github.com/TheMrityunjayPathak/TheMrityunjayPathak.github.io/assets/123563634/ed9793ac-f561-4825-b38c-62ec85891749)
+
 # Welcome to My Portfolio Website!
   
 - This website was created using HTML, CSS, and JavaScript, and it incorporates Google Fonts and Font Awesome icons.
 
 - Additionally, it features a beautiful glassmorphism design to make your browsing experience visually appealing.
-
-| ![image](https://github.com/TheMrityunjayPathak/TheMrityunjayPathak.github.io/assets/123563634/ed9793ac-f561-4825-b38c-62ec85891749) |
-| :---: |
 
 ## Table of Contents
 - 🎴 [Overview](#overview)
@@ -84,7 +83,9 @@ This portfolio website was built using the following technologies :
   
 - Feel free to explore the website and adapt it to your preferences to create a stunning online portfolio.
   
-- If you have any questions or need assistance, please don't hesitate to contact me. Enjoy showcasing your work and experiences!
+- If you have any questions or need assistance, please don't hesitate to contact me.
+
+- Enjoy showcasing your work and experiences!
 
 | [Scroll to Top ⬆️](#welcome-to-my-portfolio-website) |
 |:---:|
