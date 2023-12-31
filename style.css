@@ -197,7 +197,7 @@
       background-color: rgba(255, 255, 255, 0.2);
       backdrop-filter: blur(12px);
       transition: all 0.3s ease-in-out;
-      transform: translateY(30px);
+      transform: translateY(38px);
     }
 
     .about-image img:hover {
@@ -716,6 +716,7 @@
       justify-content: center;
       font-size: medium;
       width: 60%;
+      transform: translateX(-28px);
     }
 
     #fs-frm input,
@@ -888,6 +889,14 @@
         border-radius: 50px;
       }
 
+      .fa-user {
+        padding: 1px 2px;
+      }
+
+      .fa-book {
+        padding: 1px 2px;
+      }
+
       .text-hide {
         display: none;
       }
@@ -895,7 +904,7 @@
       /*Main Section*/
       .main-section {
         font-size: xx-small;
-        min-height: 65vh;
+        min-height: 64vh;
       }
   
       /*Footer Section*/
@@ -958,7 +967,7 @@
         text-align: center;
         margin: 0 auto;
         padding: 0;
-        width: 80%;
+        width: 90%;
       }
   
       .contact-buttons {
@@ -1009,15 +1018,8 @@
         border-radius: 0;
       }
 
-      .education-image {
-        padding-top: 8px;
-      }
-
       .education-image img {
-        transform: none;
-        background-color: whitesmoke;
-        padding: 0 116px;
-        border-radius: 0;
+        display: none;
       }
 
       /* Skills Section */
@@ -1064,7 +1066,7 @@
 
       /*Projects Section*/
       .projects {
-        width: 92%;
+        width: 90%;
         max-width: auto;
         padding-top: 20px;
       }
@@ -1102,7 +1104,7 @@
       }
 
       .bi-projects {
-        width: 92%;
+        width: 90%;
         max-width: auto;
       }
     
@@ -1127,7 +1129,7 @@
 
       /*Notebooks Section*/
       .notebooks {
-        width: 95%;
+        width: 96%;
         max-width: auto;
         font-size: small;
         padding-top: 5px;
@@ -1145,8 +1147,8 @@
       }
 
       .notebooks-text img {
-        width: 25%;
-        height: 25%;
+        width: 35%;
+        height: 35%;
       }
 
       .github-dev {
@@ -1155,7 +1157,7 @@
 
       /*Certificates Section*/
       .certificates {
-        width: 95%;
+        width: 94%;
         max-width: auto;
         padding-top: 10px;
         font-size: small;
@@ -1196,7 +1198,7 @@
 
       /*Achievements Section*/
       .achievements {
-        width: 95%;
+        width: 96%;
         max-width: auto;
         padding-top: 10px;
         font-size: small;
@@ -1208,7 +1210,7 @@
       }
 
       .achievements-img {
-        padding: 22px;
+        padding: 18px;
         max-width: 100%;
         border-radius: 0;
       }
@@ -1220,7 +1222,7 @@
 
       /*LinkedIn Post Section*/
       .linkedin-posts {
-        max-width: 100%;
+        max-width: 90%;
         padding-top: 10px;
       }
 
@@ -1256,6 +1258,7 @@
       /*Contact Me Section*/
       .contact {
         min-width: 100%;
+        max-width: 120%;
         justify-content: center;
         align-items: center;
         border-radius: 0;
@@ -1273,8 +1276,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        transform: translateX(-25px);
-        width: 60%;
+        transform: translateX(-28px);
+        width: 70%;
       }
 
       #fs-frm label,
