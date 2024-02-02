@@ -14,6 +14,9 @@
   <i class="fa-solid fa-chevron-up"></i>
 </button>
 
+<!--Scroll Indicator-->
+<div class="scroll-indicator" id="scrollIndicator"></div>
+
 <!--Intro Section-->
 <div class="intro-card">
 
@@ -528,6 +531,24 @@ function backToTop() {
     behavior: "smooth"
   });
 }
+</script>
+
+<!--Scroll Indicator-->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const scrollIndicator = document.getElementById("scrollIndicator");
+
+  window.addEventListener("scroll", function() {
+    const scrollPercentage = (document.documentElement.scrollTop / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+    scrollIndicator.style.width = scrollPercentage + "%";
+
+    if (scrollPercentage > 5) {
+      scrollIndicator.style.display = "block";
+    } else {
+      scrollIndicator.style.display = "none";
+    }
+  });
+});
 </script>
 
 <!--Project Expand Section-->
