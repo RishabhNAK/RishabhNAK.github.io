@@ -29,7 +29,7 @@
       width: 100%;
       height: 6px;
       background-color: rgba(255, 255, 255, 0.2);
-      border: 2.5px solid rgba(255, 255, 255, 0.5);
+      border: 2px solid rgba(255, 255, 255, 0.5);
       backdrop-filter: blur(12px);
       border-radius: 50px;
       display: none;
@@ -47,7 +47,7 @@
       background-color: rgba(255, 255, 255, 0.2);
       color: whitesmoke;
       border-radius: 50px;
-      border: 2.5px solid rgba(255, 255, 255, 0.5);
+      border: 2px solid rgba(255, 255, 255, 0.5);
       backdrop-filter: blur(12px);
       padding: 10px 6px;
       font-size: medium;
@@ -69,12 +69,12 @@
       min-width: 190vh;
       min-height: 85vh;
       text-align: center;
-      border: 2.5px solid rgba(255, 255, 255, 0.5);
+      border: 2px solid rgba(255, 255, 255, 0.5);
       backdrop-filter: blur(25px);
       box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.3);
       background-color: rgba(255, 255, 255, 0);
       padding-bottom: 4em;
-      border-radius: 10px;
+      border-radius: 25px;
     }
 
     /*Navigation Bar Section*/
@@ -94,7 +94,6 @@
       color: whitesmoke;
       font-size: medium;
       margin: 0 auto;
-      font-weight: bold;
     }
 
     /*Links Section*/
@@ -152,7 +151,7 @@
     .line {
       min-width: 100%;
       margin: 0 20px;
-      height: 3.5px;
+      height: 4px;
       border-radius: 50px;
       background-color: rgba(255, 255, 255, 0.2);
       border: 2px solid rgba(255, 255, 255, 0.5);
@@ -272,7 +271,7 @@
     .education-section {
       background-color: rgba(255, 255, 255, 0.2);
       backdrop-filter: blur(12px);
-      border-radius: 10px;
+      border-radius: 25px;
       border: 2px solid rgba(255, 255, 255, 0.5);
       padding: 20px;
       text-align: left;
@@ -288,7 +287,7 @@
       width: auto;
       height: 165px;
       transform: translateX(280px);
-      border-radius: 10px;
+      border-radius: 25px;
       box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.3);
     }
 
@@ -318,7 +317,7 @@
       background-color: rgba(255, 255, 255, 0.2);
       border: 2px solid rgba(255, 255, 255, 0.5);
       backdrop-filter: blur(12px);
-      border-radius: 10px;
+      border-radius: 25px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -334,7 +333,7 @@
     .grid-item img {
       width: 150px;
       height: 150px;
-      border-radius: 10px;
+      border-radius: 25px;
       box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.3);
     }
 
@@ -368,7 +367,7 @@
       background-color: rgba(255, 255, 255, 0.2);
       border: 2px solid rgba(255, 255, 255, 0.5);
       backdrop-filter: blur(12px);
-      border-radius: 10px;
+      border-radius: 25px;
       box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.3);
     }
 
@@ -420,7 +419,7 @@
       background-color: rgba(255, 255, 255, 0.2);
       border: 2px solid rgba(255, 255, 255, 0.5);
       backdrop-filter: blur(12px);
-      border-radius: 10px;
+      border-radius: 25px;
       color: whitesmoke;
       min-width: 800px;
       margin: 10px;
@@ -496,7 +495,7 @@
       background-color: rgba(255, 255, 255, 0);
       border: 2px solid rgba(255, 255, 255, 0.5);
       backdrop-filter: blur(12px);
-      border-radius: 10px;
+      border-radius: 25px;
       font-size: medium;
       box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.3);
     }
@@ -560,26 +559,26 @@
 
     .certificates-img {
       flex: 1;
-      margin: 10px;
-      padding: 10px;
-      background: rgba(255, 255, 255, 0.2);
+      margin: 12px;
+      padding: 8px;
+      background: rgba(255, 255, 255, 0.3);
+      box-shadow: 5px 5px rgba(255, 255, 255, 0.5);
       border: 2px solid rgba(255, 255, 255, 0.5);
       backdrop-filter: blur(12px);
       border-radius: 10px;
       transition: all 0.3s ease-in-out;
-      box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.3);
     }
 
     .certificates-img-hackerrank {
       flex: 1;
-      margin: 10px;
-      padding: 10px;
-      background: rgba(255, 255, 255, 0.2);
+      margin: 12px;
+      padding: 8px;
+      background: rgba(255, 255, 255, 0.3);
+      box-shadow: 7px 7px rgba(255, 255, 255, 0.5);
       border: 2px solid rgba(255, 255, 255, 0.5);
       backdrop-filter: blur(12px);
       border-radius: 10px;
       transition: all 0.3s ease-in-out;
-      box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.3);
     }
 
     .certificates-img-hackerrank img {
@@ -597,11 +596,11 @@
     }
 
     .certificates-img:hover {
-      background-color: transparent;
+      box-shadow: none;
     }
 
     .certificates-img-hackerrank:hover {
-      background-color: transparent;
+      box-shadow: none;
     }
 
     /*Achievements Sections*/
@@ -628,7 +627,7 @@
       background: rgba(255, 255, 255, 0.2);
       border: 2px solid rgba(255, 255, 255, 0.5);
       backdrop-filter: blur(12px);
-      border-radius: 10px;
+      border-radius: 25px;
       padding: 50px;
       margin: 10px;
       text-align: center;
@@ -728,7 +727,7 @@
       background-color: rgba(255, 255, 255, 0);
       border: 2px solid rgba(255, 255, 255, 0.5);
       backdrop-filter: blur(12px);
-      border-radius: 10px;
+      border-radius: 25px;
       margin: 0 auto;
       display: flex;
       flex-direction: column;
@@ -798,7 +797,7 @@
       background-color: rgba(255, 255, 255, 0.2);
       border: 2px solid rgba(255, 255, 255, 0.5);
       backdrop-filter: blur(12px);
-      border-radius: 10px;
+      border-radius: 25px;
       transition: all 0.3s ease-in-out;
       font-weight: bold;
       box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.3);
@@ -985,7 +984,7 @@
       }
   
       .about-image img {
-        width: 100px;
+        width: 150px;
         height: auto;
         display: flex;
         align-items: center;
@@ -1074,6 +1073,7 @@
 
       .grid-item {
         position: relative;
+        border-radius: 10px;
       }
     
       .skill-name {
@@ -1095,6 +1095,7 @@
         width: 60px;
         height: 60px;
         margin-right: 130px;
+        border-radius: 10px;
       }
 
       /*Projects Section*/
@@ -1203,23 +1204,30 @@
       }
 
       .certificates-img {
-        margin: 5px;
+        margin: 8px;
         padding: 6px;
+        border-radius: 5px;
+        box-shadow: 4px 4px rgba(255, 255, 255, 0.5);
+
       }
 
       .certificates-img img {
         width: 100%;
         height: auto;
+        border-radius: 5px;
       }
 
       .certificates-img-hackerrank {
-        margin: 5px;
+        margin: 8px;
         padding: 6px;
+        border-radius: 5px;
+        box-shadow: 4px 4px rgba(255, 255, 255, 0.5);
       }
 
       .certificates-img-hackerrank img {
         width: 100%;
         height: auto;
+        border-radius: 5px;
       }
 
       /*Achievements Section*/
