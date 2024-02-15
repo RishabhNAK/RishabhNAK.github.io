@@ -559,48 +559,50 @@
 
     .certificates-img {
       flex: 1;
-      margin: 12px;
+      margin: 15px;
       padding: 8px;
+      border-radius: 10px;
       background: rgba(255, 255, 255, 0.3);
       box-shadow: 5px 5px rgba(255, 255, 255, 0.5);
       border: 2px solid rgba(255, 255, 255, 0.5);
       backdrop-filter: blur(12px);
-      border-radius: 10px;
       transition: all 0.3s ease-in-out;
     }
 
     .certificates-img-hackerrank {
       flex: 1;
-      margin: 12px;
+      margin: 15px;
       padding: 8px;
+      border-radius: 10px;
       background: rgba(255, 255, 255, 0.3);
-      box-shadow: 7px 7px rgba(255, 255, 255, 0.5);
+      box-shadow: 5px 5px rgba(255, 255, 255, 0.5);
       border: 2px solid rgba(255, 255, 255, 0.5);
       backdrop-filter: blur(12px);
-      border-radius: 10px;
       transition: all 0.3s ease-in-out;
-    }
-
-    .certificates-img-hackerrank img {
-      width: 100%;
-      height: fit-content;
-      border-radius: 10px;
-      box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.3);
     }
 
     .certificates-img img {
       width: 100%;
-      height: fit-content;
       border-radius: 10px;
+      height: fit-content;
+      box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .certificates-img-hackerrank img {
+      width: 100%;
+      border-radius: 10px;
+      height: fit-content;
       box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.3);
     }
 
     .certificates-img:hover {
       box-shadow: none;
+      background-color: transparent;
     }
 
     .certificates-img-hackerrank:hover {
       box-shadow: none;
+      background-color: transparent;
     }
 
     /*Achievements Sections*/
@@ -1204,7 +1206,7 @@
       }
 
       .certificates-img {
-        margin: 8px;
+        margin: 10px;
         padding: 6px;
         border-radius: 5px;
         box-shadow: 4px 4px rgba(255, 255, 255, 0.5);
@@ -1218,7 +1220,7 @@
       }
 
       .certificates-img-hackerrank {
-        margin: 8px;
+        margin: 10px;
         padding: 6px;
         border-radius: 5px;
         box-shadow: 4px 4px rgba(255, 255, 255, 0.5);
