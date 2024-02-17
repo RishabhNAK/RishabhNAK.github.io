@@ -558,25 +558,19 @@
     }
 
     .certificates-img {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
       flex: 1;
       margin: 15px;
-      padding: 8px;
-      border-radius: 10px;
-      background: rgba(255, 255, 255, 0.3);
-      box-shadow: 5px 5px rgba(255, 255, 255, 0.5);
+      padding: 15px;
+      padding-bottom: 25px;
+      border-radius: 25px;
+      background-color: transparent;
+      background-color: rgba(255, 255, 255, 0);
       border: 2px solid rgba(255, 255, 255, 0.5);
-      backdrop-filter: blur(12px);
-      transition: all 0.3s ease-in-out;
-    }
-
-    .certificates-img-hackerrank {
-      flex: 1;
-      margin: 15px;
-      padding: 8px;
-      border-radius: 10px;
-      background: rgba(255, 255, 255, 0.3);
-      box-shadow: 5px 5px rgba(255, 255, 255, 0.5);
-      border: 2px solid rgba(255, 255, 255, 0.5);
+      box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.3);
       backdrop-filter: blur(12px);
       transition: all 0.3s ease-in-out;
     }
@@ -588,20 +582,24 @@
       box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.3);
     }
 
-    .certificates-img-hackerrank img {
-      width: 100%;
-      border-radius: 10px;
-      height: fit-content;
+    .certificate-link {
+      padding-top: 25px;
+    }
+
+    .certificate-link a {
+      text-decoration: none;
+      color: whitesmoke;
+      padding: 12px 24px;
+      font-weight: bold;
+      background-color: rgba(255, 255, 255, 0.2);
+      border: 2px solid rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(12px);
+      border-radius: 50px;
       box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.3);
+      transition: all 0.3s ease-in-out;
     }
 
-    .certificates-img:hover {
-      box-shadow: none;
-      background-color: transparent;
-    }
-
-    .certificates-img-hackerrank:hover {
-      box-shadow: none;
+    .certificate-link a:hover {
       background-color: transparent;
     }
 
@@ -1203,30 +1201,18 @@
       .certificates-card {
         width: 100%;
         min-width: auto;
+        display: flex;
+        flex-direction: column;
       }
 
       .certificates-img {
+        border-radius: 16px;
         margin: 10px;
-        padding: 6px;
-        border-radius: 5px;
-        box-shadow: 4px 4px rgba(255, 255, 255, 0.5);
-
+        padding: 10px;
+        padding-bottom: 25px;
       }
 
       .certificates-img img {
-        width: 100%;
-        height: auto;
-        border-radius: 5px;
-      }
-
-      .certificates-img-hackerrank {
-        margin: 10px;
-        padding: 6px;
-        border-radius: 5px;
-        box-shadow: 4px 4px rgba(255, 255, 255, 0.5);
-      }
-
-      .certificates-img-hackerrank img {
         width: 100%;
         height: auto;
         border-radius: 5px;
