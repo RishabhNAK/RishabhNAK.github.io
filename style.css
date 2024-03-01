@@ -188,6 +188,10 @@
       padding: 12px 11px;
     }
 
+    .social-links .twitter {
+      padding: 12px 11px;
+    }
+
     .social-links a:hover {
       background-color: transparent;
     }
@@ -956,6 +960,10 @@
   
       .social-links .kaggle {
         padding: 11px 13.6px;
+      }
+
+      .social-links .twitter {
+        padding: 11px 10px;
       }
 
       .social-links .hackerrank {
