@@ -57,6 +57,7 @@
 
     #btn-back-to-top:hover {
       background-color: transparent;
+      border: 2px solid white;
     }
 
     /*Intro Section*/
@@ -120,6 +121,7 @@
 
     .imp-links a:hover {
       background-color: transparent;
+      border: 2px solid white;
     }
 
     /*Main Section*/
@@ -194,6 +196,7 @@
 
     .social-links a:hover {
       background-color: transparent;
+      border: 2px solid white;
     }
 
     /*About Section*/
@@ -263,6 +266,7 @@
 
     .contact-buttons a:hover {
       background-color: transparent;
+      border: 2px solid white;
     }
 
     .education {
@@ -343,6 +347,7 @@
 
     .grid-item:hover {
       background-color: transparent;
+      border: 2px solid white;
     }
 
     /*Projects Section*/
@@ -377,6 +382,7 @@
 
     .project:hover {
       background-color: transparent;
+      border: 2px solid white;
     }
 
     .project-header {
@@ -434,6 +440,7 @@
 
     .bi-project:hover {
       background-color: transparent;
+      border: 2px solid white;
     }
 
     .bi-project-header {
@@ -538,6 +545,7 @@
 
     .github-dev:hover {
       background-color: transparent;
+      border: 2px solid white;
     }
 
     /*Certificates Section*/
@@ -605,6 +613,7 @@
 
     .certificate-link a:hover {
       background-color: transparent;
+      border: 2px solid white;
     }
 
     /*Achievements Sections*/
@@ -642,6 +651,7 @@
     .achievements-img:hover {
       transform: translateY(12px);
       background-color: transparent;
+      border: 2px solid white;
     }
 
     .achievements-img img {
@@ -698,6 +708,7 @@
     .prev-button:hover,
     .next-button:hover {
       background-color: transparent;
+      border: 2px solid white;
     }
 
     .follow-button {
@@ -722,6 +733,7 @@
 
     .follow-button:hover {
       background-color: transparent;
+      border: 2px solid white;
     }
 
     /*Contact Me Section*/
@@ -812,6 +824,7 @@
     #fs-frm textarea:hover,
     #fs-frm:hover #card-element:hover {
       background-color: transparent;
+      border: 2px solid white;
     }
 
     #fs-frm input:focus,
@@ -848,6 +861,7 @@
     #fs-frm [type="button"]:hover,
     #fs-frm [type="submit"]:hover {
       background-color: transparent;
+      border: 2px solid white;
     }
 
     #fs-frm [type="button"]:focus,
