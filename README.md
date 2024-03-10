@@ -1,4 +1,4 @@
-# Mrityunjay Pathak Portfolio
+# Mrityunjay Pathak - Portfolio🌐
 ![image](https://github.com/TheMrityunjayPathak/TheMrityunjayPathak.github.io/assets/123563634/2b0f92bc-79a4-44d4-93a7-5bb94d7a2ebe)
 
 - This website was created using HTML, CSS, and JavaScript, and it incorporates Google Fonts and Font Awesome icons.
