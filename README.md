@@ -1,5 +1,5 @@
 # Mrityunjay Pathak
-![image](https://github.com/TheMrityunjayPathak/TheMrityunjayPathak.github.io/assets/123563634/2b0f92bc-79a4-44d4-93a7-5bb94d7a2ebe)
+![image](https://github.com/TheMrityunjayPathak/TheMrityunjayPathak.github.io/assets/123563634/f7107c3a-2eae-4276-9e06-2739c7034223)
 
 - This website was created using HTML, CSS, and JavaScript, and it incorporates Google Fonts and Font Awesome icons.
 
