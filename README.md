@@ -86,5 +86,5 @@ This portfolio website was built using the following technologies :
 
 - Enjoy showcasing your work and experiences!
 
-| [Scroll to Top](#mrityunjay-pathak) |
+| [Scroll to Top ⬆️](#mrityunjay-pathak) |
 |:---:|
