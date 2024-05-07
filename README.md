@@ -6,12 +6,12 @@
 - Additionally, it features a beautiful glassmorphism design to make your browsing experience visually appealing.
 
 ## Table of Contents
-- 🎴 [Overview](#overview)
-- ⚙️ [Features](#features)
-- 📲 [Installation](#installation)
-- 🪴 [Usage](#usage)
-- 📡 [Technologies](#technologies)
-- 🧾 [License](#license)
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [License](#license)
 
 ## Overview
 
@@ -86,5 +86,5 @@ This portfolio website was built using the following technologies :
 
 - Enjoy showcasing your work and experiences!
 
-| [Scroll to Top ⬆️](#mrityunjay-pathak) |
+| [Scroll to Top](#mrityunjay-pathak) |
 |:---:|
