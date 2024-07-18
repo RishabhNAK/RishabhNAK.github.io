@@ -1,6 +1,6 @@
 <h1 align="center">Mrityunjay Pathak</h1>
 
-![Website](https://github.com/user-attachments/assets/23052054-cbd8-42ab-a703-c7e7f701b873)
+<a href="https://themrityunjaypathak.github.io/"><img src="https://github.com/user-attachments/assets/23052054-cbd8-42ab-a703-c7e7f701b873"></a>
 
 ## Table of Contents
 - [Overview](#overview)
@@ -95,10 +95,6 @@ To customize the website :
 - Adjust the CSS in the `style.css` file to change the styling and appearance of the website.
   
 - Utilize JavaScript in the `index.html` file for any interactive features you wish to add.
-  
-- Replace the Google Fonts and Font Awesome icons with your preferred choices by editing the links in the HTML File.
-  
-- Configure the contact form to send messages to your preferred email address by modifying the JavaScript Code.
 
 ## Technologies
 
