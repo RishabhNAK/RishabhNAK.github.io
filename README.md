@@ -1,9 +1,6 @@
-# Mrityunjay Pathak
+<h1 align="center">Mrityunjay Pathak</h1>
+
 ![Website](https://github.com/user-attachments/assets/23052054-cbd8-42ab-a703-c7e7f701b873)
-
-- This website was created using HTML, CSS, and JavaScript, and it incorporates Google Fonts and Font Awesome icons.
-
-- Additionally, it features a beautiful glassmorphism design to make your browsing experience visually appealing.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -15,25 +12,57 @@
 
 ## Overview
 
-- This portfolio website serves as a digital representation of my work, skills, experiences and achievements
+- This portfolio website serves as a digital representation of my work, skills, experiences and achievements.
 
-- It showcases my projects and skills, and serves as a platform for potential collaborators, and employers to learn more about my background and abilities.
+- It showcases my capability as Data Scientist and serves as a platform for potential collaborators and employers to learn more about my background and abilities.
+
+- This website is created using HTML, CSS and JavaScript with incorporating Google Fonts, IonIcons, CSS Background, Flaticons, DesignStripe and much more.
 
 ## Features
 
-1️⃣ **Glassmorphism Design** → The website uses a glassmorphism effect, giving it a modern and sleek look.
+**CSS Background**
 
-2️⃣ **Responsiveness** → The website is designed to be responsive, ensuring that it looks great on various screen sizes.
+• One of the standout feature is the stylish dotted pattern background created by using a website called CSS Backgrounds.
 
-3️⃣ **Google Fonts** → High-quality Google Fonts are used to enhance the typography and overall visual appeal of the website.
+• Here you will find presets of Background Patterns made entirely by CSS.
 
-4️⃣ **Font Awesome Icons** → Font Awesome icons are used to make the website more interactive and visually appealing.
+• You can edit colors and size of the pattern and copy it as CSS or download PNG image of the pattern.
 
-5️⃣ **Projects Section** → A section showcasing my projects, with descriptions, datasets, and github links to the respective project pages.
+• It adds a modern and professional touch to the overall website.
 
-6️⃣ **About Me** → An About Me section to provide information about myself and my education.
+𝗟𝗶𝗻𝗸 𝗼𝗳 𝗖𝗦𝗦 𝗕𝗮𝗰𝗸𝗴𝗿𝗼𝘂𝗻𝗱 : https://www.magicpattern.design/tools/css-backgrounds
 
-7️⃣ **Contact Form** → A contact form allowing visitors to get in touch with me.
+**DesignStripe**
+
+• The illustration you see in the hero section of the website is downloaded from DesignStripe.
+
+• They provide illustration with different theme of very high quality to download for free. You can also download it as PNG with transparent background.
+
+𝗟𝗶𝗻𝗸 𝗼𝗳 𝗗𝗲𝘀𝗶𝗴𝗻𝗦𝘁𝗿𝗶𝗽𝗲 : https://designstripe.com/
+
+**Google Fonts**
+
+• To enhance the readability and visual appeal, I've incorporated Google Fonts that give the text a sleek and elegant appearance.
+
+• It's all about making sure everything looks great and is easy to read.
+
+𝗟𝗶𝗻𝗸 𝗼𝗳 𝗚𝗼𝗼𝗴𝗹𝗲 𝗙𝗼𝗻𝘁𝘀 : https://fonts.google.com/
+
+**Flaticons**
+
+• I've made sure the website is easy to navigate with the help of Flaticons.
+
+• These icons are not only visually appealing but also intuitive, making it simple for visitors to find and explore different sections of the site.
+
+𝗟𝗶𝗻𝗸 𝗼𝗳 𝗙𝗹𝗮𝘁𝗶𝗰𝗼𝗻𝘀 : https://www.flaticon.com/
+
+**Formspree**
+
+• I've included a Contact Form powered by Formspree, which ensures that reaching out to me is as easy as possible.
+
+• It's simple and functional, without the need for complex backend technologies like PHP.
+
+𝗟𝗶𝗻𝗸 𝗼𝗳 𝗙𝗼𝗿𝗺𝘀𝗽𝗿𝗲𝗲 : https://formspree.io/
 
 ## Installation
 
@@ -73,8 +102,10 @@ To customize the website :
 
 This portfolio website was built using the following technologies :
 
-| HTML | CSS | JavaScript | Google Fonts | Font Awesome | Glassmorphism Effect |
-| :---: | :---: | :---: | :---: | :---: | :---: |
+| HTML | CSS | JavaScript | Google Fonts |
+| :---: | :---: | :---: | :---: |
+| Font Awesome | Ion Icons | Falticons | CSS Background |
+| DesignStripe | Formspree | Color Hunt | W3School |
 
 ## License
 
