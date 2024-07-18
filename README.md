@@ -20,7 +20,7 @@
 
 ## Features
 
-**CSS Background**
+🔵 **CSS Background**
 
 • One of the standout feature is the stylish dotted pattern background created by using a website called CSS Backgrounds.
 
@@ -32,7 +32,7 @@
 
 𝗟𝗶𝗻𝗸 𝗼𝗳 𝗖𝗦𝗦 𝗕𝗮𝗰𝗸𝗴𝗿𝗼𝘂𝗻𝗱 : https://www.magicpattern.design/tools/css-backgrounds
 
-**DesignStripe**
+🔴 **DesignStripe**
 
 • The illustration you see in the hero section of the website is downloaded from DesignStripe.
 
@@ -40,7 +40,7 @@
 
 𝗟𝗶𝗻𝗸 𝗼𝗳 𝗗𝗲𝘀𝗶𝗴𝗻𝗦𝘁𝗿𝗶𝗽𝗲 : https://designstripe.com/
 
-**Google Fonts**
+🟡 **Google Fonts**
 
 • To enhance the readability and visual appeal, I've incorporated Google Fonts that give the text a sleek and elegant appearance.
 
@@ -48,7 +48,7 @@
 
 𝗟𝗶𝗻𝗸 𝗼𝗳 𝗚𝗼𝗼𝗴𝗹𝗲 𝗙𝗼𝗻𝘁𝘀 : https://fonts.google.com/
 
-**Flaticons**
+🟢 **Flaticons**
 
 • I've made sure the website is easy to navigate with the help of Flaticons.
 
@@ -56,7 +56,7 @@
 
 𝗟𝗶𝗻𝗸 𝗼𝗳 𝗙𝗹𝗮𝘁𝗶𝗰𝗼𝗻𝘀 : https://www.flaticon.com/
 
-**Formspree**
+🟣 **Formspree**
 
 • I've included a Contact Form powered by Formspree, which ensures that reaching out to me is as easy as possible.
 
