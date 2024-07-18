@@ -1,0 +1,1242 @@
+    /*HTML Section*/
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    /*Body Section*/
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow-x: hidden;
+      margin: 0 auto;
+      padding: 4em;
+      background-color: white;
+      font-family: "Poiret One", sans-serif;
+    }
+
+    body::-webkit-scrollbar {
+      display: none;
+    }
+
+    /*Scroll Indicator*/
+    .scroll-indicator {
+      position: fixed;
+      display: none;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 6px;
+      z-index: 9999;
+      background-color: #4c89f8;
+      box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    /*Back To Top Button*/
+    #btn-back-to-top {
+      position: fixed;
+      display: none;
+      cursor: pointer;
+      bottom: 20px;
+      right: 20px;
+      padding: 12px 6px;
+      font-size: medium;
+      color: #1A2421;
+      background-color: white;
+      border: 1px solid #1A2421;
+      border-radius: 50px;
+      box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.3);
+      transition: all 0.3s ease-in-out;
+    }
+
+    #btn-back-to-top:hover {
+      background-color: #4c89f8;
+      box-shadow: none;
+    }
+
+    /*Intro Section*/
+    .intro-card {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      min-width: 190vh;
+      min-height: 85vh;
+      opacity: 1;
+      padding-bottom: 4em;
+      border: 2px solid #1A2421;
+      border-radius: 12px;
+      background-color: #e5e5f7;
+      background-image: radial-gradient(#4c89f8 0.5px, #e5e5f7 0.5px);
+      background-size: 10px 10px;
+      box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    /*Navigation Bar Section*/
+    .navigation {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 100%;
+      padding: 20px;
+    }
+
+    /*Links Section*/
+    .imp-links {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-self: center;
+      margin: 0 auto;
+    }
+
+    .imp-links a {
+      text-decoration: none;
+      font-size: larger;
+      font-weight: bold;
+      color: #1A2421;
+      margin: 0 12px;
+      padding: 6px 12px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .imp-links a:hover {
+      color: grey;
+    }
+
+    .icon-hide {
+      display: none;
+    }
+
+    /*Main Section*/
+    .main-section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      min-height: 70vh;
+    }
+
+    .main-text {
+      color: #1A2421;
+      line-height: 1.08;
+      text-align: left;
+      font-size: 60px;
+      font-family: "Unbounded", sans-serif;
+    }
+
+    .main-links {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 15px;
+      padding: 10px 0;
+    }
+
+    .main-links a {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: large;
+      font-family: "Poiret One", sans-serif;
+      background-color: white;
+      color: #1A2421;
+      border: 1px solid #1A2421;
+      border-radius: 100px;
+      padding: 6px 12px;
+      box-shadow: 4px 4px #272e2c;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .main-links a:hover {
+      background-color: #4c89f8;
+      box-shadow: none;
+    }
+
+    .main-image img {
+      width: auto;
+      height: 400px;
+    }
+
+    /*Footer Section*/
+    .footer-section {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      padding: 2em;
+    }
+
+    .line {
+      min-width: 75%;
+      margin: 0 20px;
+      height: 2.5px;
+      border-radius: 50px;
+      background-color: #1A2421;
+    }
+    
+    .social-links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .social-links a {
+      text-decoration: none;
+      margin: 0 8px;
+      padding: 4px 8px;
+      color: #1A2421;
+      font-size: large;
+      font-weight: bold;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .social-links a:hover {
+      color: grey;
+    }
+
+    /*About Section*/
+    .about {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      padding-top: 40px;
+      font-size: large;
+      color: #1A2421;
+    }
+
+    .about h1 {
+      font-family: "Rock Salt", cursive;
+    }
+
+    .about-section {
+      display: flex;
+      flex-direction: row;
+      max-width: 800px;
+    }
+
+    .about-image img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: auto;
+      height: 200px;
+      margin: 0 auto;
+      padding: 2.5px;
+      border-radius: 100px;
+      background-color: white;
+      border: 1px solid #1A2421;
+      transform: translateY(38px);
+    }
+
+    .about-text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      padding-left: 50px;
+      font-size: larger;
+      text-align: left;
+      font-weight: bold;
+      color: #1A2421;
+    }
+
+    .contact-buttons {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      padding-left: 3.8em;
+      transform: translateY(-30px);
+    }
+
+    .contact-buttons .ctc-btn i {
+      margin-right: 8px;
+    }
+
+    .contact-buttons a {
+      text-decoration: none;
+      font-weight: bold;
+      padding: 6px 12px;
+      margin: 0 10px;
+      color: #1A2421;
+      background-color: white;
+      border: 1px solid #1A2421;
+      border-radius: 50px;
+      box-shadow: 4px 4px #272e2c;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .contact-buttons a:hover {
+      background-color: #4c89f8;
+      box-shadow: none;
+    }
+
+    /*Skills Section*/
+    .skills {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 800px;
+      padding-top: 40px;
+      font-size: large;
+      color: #1A2421;
+    }
+
+    .skills h1 {
+      font-family: "Rock Salt", cursive;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+      padding-top: 50px;
+      min-width: 800px;
+    }
+
+    .grid-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 180px;
+      height: 200px;
+      font-weight: bold;
+      background-color: white;
+      border: 1px solid gainsboro;
+      border-radius: 12px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .skill-name {
+      padding-top: 6px;
+    }
+
+    .grid-item img {
+      width: 150px;
+      height: 150px;
+    }
+
+    /*Projects Section*/
+    .projects {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 800px;
+      margin: 0 auto;
+      padding-top: 60px;
+      font-size: large;
+      color: #1A2421;
+    }
+
+    .projects h1 {
+      font-family: "Rock Salt", cursive;
+    }
+
+    .project {
+      cursor: pointer;
+      min-width: 800px;
+      margin: 10px;
+      background-color: white;
+      color: #1A2421;
+      border: 1px solid gainsboro;
+      border-radius: 12px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .project:hover {
+      border: 1px solid #1A2421;
+    }
+
+    .project-header {
+      text-align: center;
+      font-size: medium;
+    }
+
+    .projects-card {
+      display: none;
+      padding: 20px;
+      margin-top: 10px;
+      text-align: left;
+      font-size: larger;
+      font-weight: bold;
+      color: #1A2421;
+    }
+
+    .projects-card .link {
+      color: #4c89f8;
+    }
+
+    .project.expanded .projects-card {
+      display: block;
+    }
+
+    .bi-projects {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 800px;
+      padding-top: 30px;
+      font-size: large;
+      color: #1A2421;
+    }
+
+    .bi-projects h1 {
+      font-family: "Rock Salt", cursive;
+    }
+    
+    .bi-project {
+      cursor: pointer;
+      min-width: 800px;
+      margin: 10px;
+      background-color: white;
+      color: #1A2421;
+      border: 1px solid gainsboro;
+      border-radius: 12px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .bi-project:hover {
+      border: 1px solid #1A2421;
+    }
+
+    .bi-project-header {
+      text-align: center;
+      font-size: medium;
+    }
+
+    .bi-cards {
+      display: none;
+      padding: 20px;
+      margin-top: 10px;
+      text-align: left;
+      font-size: larger;
+      font-weight: bold;
+      color: #1A2421;
+    }
+
+    .bi-cards a {
+      color: #4c89f8;
+    }
+
+    .bi-projects .bi-cards img {
+      max-width: 100%;
+      margin: 10px 0;
+      border-radius: 6px;
+    }
+
+    .bi-project.expanded .bi-cards {
+      display: block;
+    }
+
+    /*Notebooks Sections*/
+    .notebooks {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 800px;
+      padding-top: 30px;
+      font-size: large;
+      color: #1A2421;
+    }
+
+    .notebooks h1 {
+      font-family: "Rock Salt", cursive;
+    }
+
+    .notebooks-card {
+      display: flex;
+      flex-direction: column;
+      min-width: 800px;
+    }
+
+    .notebooks-text {
+      flex: 1;
+      margin: 10px;
+      min-width: 800px;
+      padding-bottom: 20px;
+      text-align: center;
+      font-size: medium;
+      background-color: white;
+      border: 1px solid gainsboro;
+      border-radius: 12px;
+    }
+
+    .notebooks-text a {
+      text-decoration: none;
+      color: #1A2421;
+    }
+
+    .notebooks-text img {
+      width: 140px;
+      height: 140px;
+      padding-top: 30px;
+    }
+
+    .github-buttons {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .github-buttons .github-dev i {
+      margin-right: 8px;
+    }
+
+    .github-dev {
+      text-decoration: none;
+      padding: 6px 12px;
+      margin: 10px;
+      font-size: large;
+      font-weight: bold;
+      color: #1A2421;
+      background-color: white;
+      border: 1px solid #1A2421;
+      border-radius: 50px;
+      box-shadow: 4px 4px #272e2c;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .github-dev:hover {
+      background-color: #4c89f8;
+      box-shadow: none;
+    }
+
+    /*Certificates Section*/
+    .certificates {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 800px;
+      padding-top: 40px;
+      font-size: large;
+      color: #1A2421;
+    }
+
+    .certificates h1 {
+      font-family: "Rock Salt", cursive;
+    }
+
+    .certificates-card {
+      display: flex;
+      min-width: 800px;
+    }
+
+    .certificates-img {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      margin: 12px;
+      padding: 12px;
+      padding-bottom: 24px;
+      border-radius: 12px;
+      background-color: white;
+      border: 1px solid gainsboro;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .certificates-img img {
+      width: 100%;
+      height: fit-content;
+      border: 1px solid gainsboro;
+      border-radius: 6px;
+    }
+
+    .certificate-link {
+      padding-top: 25px;
+    }
+
+    .certificate-link .certi-btn i {
+      margin-right: 8px;
+    }
+
+    .certificate-link a {
+      text-decoration: none;
+      font-weight: bold;
+      padding: 6px 12px;
+      color: #1A2421;
+      background-color: white;
+      border: 1px solid #1A2421;
+      border-radius: 50px;
+      box-shadow: 4px 4px #272e2c;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .certificate-link a:hover {
+      background-color: #4c89f8;
+      box-shadow: none;
+    }
+
+    /*Achievements Sections*/
+    .achievements {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 800px;
+      padding-top: 40px;
+      font-size: large;
+      color: #1A2421;
+    }
+
+    .achievements h1 {
+      font-family: "Rock Salt", cursive;
+    }
+
+    .achievements-card {
+      display: flex;
+      min-width: 800px;
+    }
+
+    .achievements-img {
+      flex: 1;
+      padding: 50px;
+      margin: 10px;
+      cursor: pointer;
+      text-align: center;
+      background-color: white;
+      border: 1px solid gainsboro;
+      border-radius: 12px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .achievements-img:hover {
+      transform: translateY(12px);
+      border: 1px solid #1A2421;
+    }
+
+    .achievements-img img {
+      width: 130px;
+      height: auto;
+    }
+
+    /*LinkedIn Post Section*/
+    .linkedin-posts {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 50px;
+      max-width: 800px;
+      font-size: large;
+      color: #1A2421;
+    }
+
+    .linkedin-posts h1 {
+      font-family: "Rock Salt", cursive;
+    }
+
+    .post-container {
+      display: flex;
+      min-width: 800px;
+    }
+
+    .post-button {
+      display: flex;
+      justify-content: space-between;
+      max-width: 800px;
+      cursor: pointer;
+      margin: 20px auto;
+      padding: 6px 8px;
+      font-size: 24px;
+      color: #1A2421;
+      background-color: white;
+      border: 1px solid #1A2421;
+      border-radius: 50px;
+      box-shadow: 4px 4px #272e2c;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .post-iframe {
+      min-width: 800px;
+      height: 500px;
+      border: 1px solid gainsboro;
+      border-radius: 6px;
+    }
+
+    .prev-button:hover,
+    .next-button:hover {
+      background-color: #4c89f8;
+      box-shadow: none;
+    }
+
+    .follow-button {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      text-decoration: none;
+      font-size: large;
+      height: 50px;
+      margin: 10px auto;
+      font-weight: bold;
+      color: #1A2421;
+      background-color: white;
+      border: 1px solid #1A2421;
+      border-radius: 50px;
+      box-shadow: 4px 4px #272e2c;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .follow-button:hover {
+      background-color: #4c89f8;
+      box-shadow: none;
+    }
+
+    /*Contact Me Section*/
+    .contact {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-width: 800px;
+      margin: 0 auto;
+      padding-top: 40px;
+      background-color: white;
+      border: 1px solid gainsboro;
+      border-radius: 12px;
+    }
+
+    .contact-me h1 {
+      padding-top: 60px;
+      padding-bottom: 10px;
+      color: #1A2421;
+      font-family: "Rock Salt", cursive;
+    }
+
+    /*Form Section*/
+    #fs-frm {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 60%;
+      margin: 0 auto;
+      font-size: large;
+      transform: translateX(-28px);
+    }
+
+    #fs-frm input,
+    #fs-frm select,
+    #fs-frm textarea,
+    #fs-frm fieldset,
+    #fs-frm optgroup,
+    #fs-frm label,
+    #fs-frm #card-element:disabled {
+      display: block;
+      border: none;
+      width: 100%;
+      padding: 0;
+      margin: auto 12px;
+      color: #1A2421;
+      font-size: 100%;
+      font-weight: bold;
+      font-family: "Poiret One", sans-serif;
+    }
+
+    #fs-frm #message {
+      width: 100%;
+      resize: none;
+    }
+
+    #fs-frm label,
+    #fs-frm legend,
+    #fs-frm ::placeholder {
+      display: flex;
+      align-items: baseline;
+      font-size: .825rem;
+      margin-bottom: .5rem;
+      padding-top: .2rem;
+      color: #1A2421;
+      font-size: 100%;
+    }
+    
+    #fs-frm input,
+    #fs-frm select,
+    #fs-frm textarea,
+    #fs-frm #card-element {
+      padding: .75em 1rem;
+      margin-bottom: 1.5rem;
+      color: #1A2421;
+      background-color: white;
+      border: 1px solid gainsboro;
+      border-radius: 12px;
+      font-weight: bold;
+      transition: all 0.3s ease-in-out;
+    }
+
+    #fs-frm input:hover,
+    #fs-frm select:hover,
+    #fs-frm textarea:hover,
+    #fs-frm:hover #card-element:hover {
+      border: 1px solid #1A2421;
+    }
+
+    #fs-frm input:focus,
+    #fs-frm select:focus,
+    #fs-frm textarea:focus {
+      outline: none;
+    }
+
+    #fs-frm [type="text"],
+    #fs-frm [type="email"] {
+      width: 100%;
+    }
+
+    #fs-frm [type="button"],
+    #fs-frm [type="submit"] {
+      font-family: "Poiret One", sans-serif;
+      width: auto;
+      cursor: pointer;
+      margin: 0 auto;
+      opacity: 1;
+      padding: 6px 12px;
+      font-size: large;
+      font-weight: bold;
+      background-color: white;
+      border: 1px solid #1A2421;
+      border-radius: 50px;
+      box-shadow: 4px 4px #272e2c;
+      transform: translateX(25px);
+      transition: all 0.3s ease-in-out;
+    }
+
+    #fs-frm [type="button"]:hover,
+    #fs-frm [type="submit"]:hover {
+      background-color: #4c89f8;
+      box-shadow: none;
+    }
+
+    #fs-frm [type="button"]:focus,
+    #fs-frm [type="submit"]:focus {
+      outline: none;
+    }
+
+    #fs-frm [type="submit"] {
+      margin-bottom: 40px;
+    }
+
+    #fs-frm select {
+      text-transform: none;
+    }
+
+    /*Responsive Section*/
+    @media (max-width: 1024px) {
+      /*Body Section*/
+      body {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        margin: 0 auto;
+        padding: 1em;
+      }
+
+      /*Back To Top Button*/
+      #btn-back-to-top {
+        position: fixed;
+        font-size: medium;
+        z-index: 1;
+        bottom: 30px;
+        right: 30px;
+        padding: 12px 6px;
+      }
+  
+      /*Intro Section*/
+      .intro-card {
+        min-width: 100%;
+        padding-bottom: 1.5em;
+      }
+  
+      /*Navigation Section*/
+      .navigation {
+        max-width: 100%;
+      }
+  
+      /*Links Section*/
+      .icon-hide {
+        display: block;
+      }
+  
+      .imp-links a {
+        display: flex;
+        flex-direction: row;
+        margin: 6px;
+        padding: 8px;
+        line-height: 0;
+        font-size: large;
+        background-color: white;
+        border: 1px solid #1A2421;
+        border-radius: 50px;
+        box-shadow: 4px 4px #272e2c;
+      }
+
+      .imp-links a:hover {
+        background-color: #4c89f8;
+        box-shadow: none;
+        color: #1A2421;
+      }
+
+      .text-hide {
+        display: none;
+      }
+  
+      /*Main Section*/
+      .main-section {
+        flex-direction: column;
+        gap: 1em;
+        min-height: 70vh;
+        transform: translateY(1.5em);
+      }
+
+      .main-text {
+        text-align: center;
+        font-size: 40px;
+      }
+
+      .main-links a {
+        font-size: medium;
+      }
+
+      .main-image img {
+        width: auto;
+        height: 290px;
+      }
+
+      /*Footer Section*/
+      .line {
+        display: none;
+      }
+
+      .social-links a {
+        margin: 0 4px;
+        font-size: medium;
+      }
+
+      /*About Section*/
+      .about {
+        padding: 0;
+      }
+  
+      .about h1 {
+        font-size: x-large;
+        font-family: "Rock Salt", cursive;
+      }
+
+      .about-section {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 1em;
+      }
+
+      .about-image {
+        padding-bottom: 1em;
+      }
+  
+      .about-image img {
+        width: 150px;
+        height: auto;
+        padding: 2.5px;
+        transform: none;
+      }
+  
+      .about-text {
+        font-size: large;
+        text-align: center;
+        padding: 0;
+        width: 90%;
+      }
+
+      .contact-buttons .ctc-btn i {
+        margin-right: 0;
+      }
+
+      .contact-buttons {
+        transform: translateY(0);
+        padding-left: 0;
+      }
+  
+      .contact-buttons a {
+        font-size: medium;
+        margin: 0 8px;
+        padding: 8px 10px;
+      }
+
+      .button-text-hide {
+        display: none;
+      }
+
+      /* Skills Section */
+      .skills {
+        width: 50%;
+        padding-top:20px;
+      }
+
+      .skills h1 {
+        font-size: x-large;
+        font-family: "Rock Salt", cursive;
+      }
+
+      .grid-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+        width: 100%;
+      }
+
+      .grid-item {
+        width: 38%;
+        height: 100px;
+      }
+      
+      .grid-item img {
+        width: 60px;
+        height: 60px;
+      }
+
+      /*Projects Section*/
+      .projects {
+        width: 90%;
+        max-width: auto;
+        padding-top: 30px;
+      }
+
+      .projects h1 {
+        font-size: x-large;
+        font-family: "Rock Salt", cursive;
+      }
+
+      .project {
+        width: 100%;
+        min-width: auto;
+        font-size: small;
+      }
+
+      .projects-card {
+        display: none;
+        padding: 20px;
+        margin-top: 10px;
+      }
+
+      .bi-project-header, .project-header {
+        font-size: small;
+      }
+
+      .bi-projects {
+        width: 90%;
+        max-width: auto;
+        padding-top: 20px;
+      }
+
+      .bi-projects h1 {
+        font-size: x-large;
+        font-family: "Rock Salt", cursive;
+      }
+    
+      .bi-project {
+        min-width: auto;
+        width: 100%;
+      }
+
+      .bi-cards {
+        font-size: medium;
+      }
+
+      .bi-projects .bi-cards img {
+        border-radius: 4px;
+        margin: 0;
+      }
+
+      /*Notebooks Section*/
+      .notebooks {
+        width: 96%;
+        max-width: auto;
+        padding-top: 15px;
+      }
+
+      .notebooks h1 {
+        font-size: x-large;
+        font-family: "Rock Salt", cursive;
+      }
+
+      .notebooks-card {
+        width: 100%;
+        min-width: auto;
+      }
+
+      .notebooks-text {
+        min-width: 90%;
+        font-size: small;
+      }
+
+      .notebooks-text img {
+        width: 35%;
+        height: 35%;
+      }
+
+      .github-buttons {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .github-dev {
+        font-size: medium;
+      }
+
+      /*Certificates Section*/
+      .certificates {
+        width: 96%;
+        max-width: auto;
+        font-size: small;
+        padding-top: 25px;
+      }
+
+      .certificates h1 {
+        font-size: x-large;
+        font-family: "Rock Salt", cursive;
+      }
+
+      .certificates-card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-width: auto;
+      }
+
+      .certificates-img {
+        margin: 10px;
+        padding: 10px;
+        padding-bottom: 25px;
+      }
+
+      .certificates-img img {
+        width: 100%;
+        height: auto;
+      }
+
+      .certificate-link a {
+        font-size: medium;
+      }
+
+      /*Achievements Section*/
+      .achievements {
+        width: 96%;
+        max-width: auto;
+        padding-top: 25px;
+      }
+
+      .achievements h1 {
+        font-size: x-large;
+        font-family: "Rock Salt", cursive;
+      }
+
+      .achievements-card {
+        min-width: 100%;
+      }
+
+      .achievements-img {
+        padding: 18px;
+        max-width: 100%;
+      }
+
+      .achievements-img img {
+        height: auto;
+        width: 100%;
+      }
+
+      /*LinkedIn Post Section*/
+      .linkedin-posts {
+        max-width: 90%;
+        padding-top: 25px;
+      }
+
+      .linkedin-posts h1 {
+        font-size: x-large;
+        font-family: "Rock Salt", cursive;
+      }
+
+      .post-button {
+        max-width: 100%;
+      }
+
+      .post-container {
+        min-width: 100%;
+      }
+
+      .post-iframe {
+        min-width: 100%;
+      }
+
+      .post-button {
+        font-size: 24px;
+        margin: 20px auto;
+      }
+
+      .follow-button {
+        height: 40px;
+        width: 100%;
+        font-size: medium;
+        font-weight: bold;
+        margin: 10px auto;
+      }
+
+      /*Contact Me Section*/
+      .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 120%;
+        max-width: 120%;
+        transform: translateX(-9%);
+      }
+
+      .contact-me h1 {
+        padding-top: 25px;
+        font-size: x-large;
+        font-family: "Rock Salt", cursive;
+      }
+
+      /*Form Section*/
+      #fs-frm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: medium;
+        width: 70%;
+        padding: 0.1em;
+        transform: translateX(-28px);
+      }
+
+      #fs-frm [type="text"],
+      #fs-frm [type="email"] {
+        width: 100%;
+      }
+
+      #fs-frm [type="button"],
+      #fs-frm [type="submit"] {
+        width: auto;
+        transform: translateX(25px);
+      }
+  
+      }
