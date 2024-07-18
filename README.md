@@ -30,15 +30,17 @@
 
 • It adds a modern and professional touch to the overall website.
 
-𝗟𝗶𝗻𝗸 𝗼𝗳 𝗖𝗦𝗦 𝗕𝗮𝗰𝗸𝗴𝗿𝗼𝘂𝗻𝗱 : https://www.magicpattern.design/tools/css-backgrounds
+𝗟𝗶𝗻𝗸 𝗼𝗳 𝗖𝗦𝗦 𝗕𝗮𝗰𝗸𝗴𝗿𝗼𝘂𝗻𝗱 : [CSS Backgrounds by Magic Patterns](https://www.magicpattern.design/tools/css-backgrounds)
 
 🔴 **DesignStripe**
 
 • The illustration you see in the hero section of the website is downloaded from DesignStripe.
 
-• They provide illustration with different theme of very high quality to download for free. You can also download it as PNG with transparent background.
+• They provide illustration with different theme of very high quality to download for free. 
 
-𝗟𝗶𝗻𝗸 𝗼𝗳 𝗗𝗲𝘀𝗶𝗴𝗻𝗦𝘁𝗿𝗶𝗽𝗲 : https://designstripe.com/
+• You can also download it as PNG with transparent background.
+
+𝗟𝗶𝗻𝗸 𝗼𝗳 𝗗𝗲𝘀𝗶𝗴𝗻𝗦𝘁𝗿𝗶𝗽𝗲 : [DesignStripe](https://designstripe.com/)
 
 🟡 **Google Fonts**
 
@@ -46,7 +48,7 @@
 
 • It's all about making sure everything looks great and is easy to read.
 
-𝗟𝗶𝗻𝗸 𝗼𝗳 𝗚𝗼𝗼𝗴𝗹𝗲 𝗙𝗼𝗻𝘁𝘀 : https://fonts.google.com/
+𝗟𝗶𝗻𝗸 𝗼𝗳 𝗚𝗼𝗼𝗴𝗹𝗲 𝗙𝗼𝗻𝘁𝘀 : [Google Fonts](https://fonts.google.com/)
 
 🟢 **Flaticons**
 
@@ -54,7 +56,7 @@
 
 • These icons are not only visually appealing but also intuitive, making it simple for visitors to find and explore different sections of the site.
 
-𝗟𝗶𝗻𝗸 𝗼𝗳 𝗙𝗹𝗮𝘁𝗶𝗰𝗼𝗻𝘀 : https://www.flaticon.com/
+𝗟𝗶𝗻𝗸 𝗼𝗳 𝗙𝗹𝗮𝘁𝗶𝗰𝗼𝗻𝘀 : [Flaticons](https://www.flaticon.com/)
 
 🟣 **Formspree**
 
@@ -62,7 +64,7 @@
 
 • It's simple and functional, without the need for complex backend technologies like PHP.
 
-𝗟𝗶𝗻𝗸 𝗼𝗳 𝗙𝗼𝗿𝗺𝘀𝗽𝗿𝗲𝗲 : https://formspree.io/
+𝗟𝗶𝗻𝗸 𝗼𝗳 𝗙𝗼𝗿𝗺𝘀𝗽𝗿𝗲𝗲 : [Formspree](https://formspree.io/)
 
 ## Installation
 
@@ -90,7 +92,7 @@ To customize the website :
 
 - Modify the HTML in `index.html` to update your project descriptions, images, and content.
   
-- Adjust the CSS in the `style.css` file to change the styling and appearance of the website, including the glassmorphism effect.
+- Adjust the CSS in the `style.css` file to change the styling and appearance of the website.
   
 - Utilize JavaScript in the `index.html` file for any interactive features you wish to add.
   
