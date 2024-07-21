@@ -115,5 +115,8 @@ This portfolio website was built using the following technologies :
 
 - Enjoy showcasing your work and experiences!
 
-| [Scroll to Top ⬆️](#mrityunjay-pathak) |
-|:---:|
+<div align="right">
+ 
+<a href="#"><img src="https://github.com/TheMrityunjayPathak/TheMrityunjayPathak/blob/main/arrow.png" width="4%"></a>
+
+</div>
