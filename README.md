@@ -1,4 +1,4 @@
-<h1 align="center">Mrityunjay Pathak</h1>
+<h1 align="center" id="header">Mrityunjay Pathak</h1>
 
 <a href="https://themrityunjaypathak.github.io/"><img src="https://github.com/user-attachments/assets/23052054-cbd8-42ab-a703-c7e7f701b873"></a>
 
@@ -117,6 +117,6 @@ This portfolio website was built using the following technologies :
 
 <div align="right">
  
-<a href="#"><img src="https://github.com/TheMrityunjayPathak/TheMrityunjayPathak/blob/main/arrow.png" width="4%"></a>
+<a href="#header"><img src="https://github.com/TheMrityunjayPathak/TheMrityunjayPathak/blob/main/arrow.png" width="4%"></a>
 
 </div>
