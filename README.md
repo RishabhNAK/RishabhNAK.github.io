@@ -22,7 +22,7 @@
 
 🔵 **CSS Background**
 
-• One of the standout feature is the stylish dotted pattern background created by using a website called CSS Backgrounds.
+• The stylish dotted pattern you see in hero section of the website is created CSS Backgrounds.
 
 • Here you will find presets of Background Patterns made entirely by CSS.
 
@@ -38,13 +38,13 @@
 
 • They provide illustration with different theme of very high quality to download for free. 
 
-• You can also download it as PNG with transparent background.
+• You can also download it as PNG or SVG with transparent background.
 
 𝗟𝗶𝗻𝗸 𝗼𝗳 𝗗𝗲𝘀𝗶𝗴𝗻𝗦𝘁𝗿𝗶𝗽𝗲 : [DesignStripe](https://designstripe.com/)
 
 🟡 **Google Fonts**
 
-• To enhance the readability and visual appeal, I've incorporated Google Fonts that give the text a sleek and elegant appearance.
+• To enhance the readability and visual appeal, I've used Google Fonts for the text and headings.
 
 • It's all about making sure everything looks great and is easy to read.
 
@@ -54,7 +54,7 @@
 
 • I've made sure the website is easy to navigate with the help of Flaticons.
 
-• These icons are not only visually appealing but also intuitive, making it simple for visitors to find and explore different sections of the site.
+• These icons are visually appealing and are free to use in PNG or SVG Formats in any size.
 
 𝗟𝗶𝗻𝗸 𝗼𝗳 𝗙𝗹𝗮𝘁𝗶𝗰𝗼𝗻𝘀 : [Flaticons](https://www.flaticon.com/)
 
@@ -102,7 +102,7 @@ This portfolio website was built using the following technologies :
 
 | HTML | CSS | JavaScript | Google Fonts |
 | :---: | :---: | :---: | :---: |
-| Font Awesome | Ion Icons | Falticons | CSS Background |
+| Font Awesome | Ion Icons | Flaticons | CSS Background |
 | DesignStripe | Formspree | Color Hunt | W3School |
 
 ## License
