@@ -18,6 +18,8 @@
 
 - This website is created using HTML, CSS and JavaScript with incorporating Google Fonts, IonIcons, CSS Background, Flaticons, DesignStripe and much more.
 
+[Feedback from the Community »](https://www.kaggle.com/discussions/accomplishments/520952)
+
 ## Features
 
 🔵 **CSS Background**
@@ -86,19 +88,19 @@
 
 ## Usage
 
-Customize it with your own projects, content, and contact details.
+- Customize it with your own projects, content, and contact details.
 
-To customize the website :
+- To customize the website :
 
-- Modify the HTML in `index.html` to update your project descriptions, images, and content.
+   - Modify the HTML in `index.html` to update your project descriptions, images, and content.
   
-- Adjust the CSS in the `style.css` file to change the styling and appearance of the website.
+   - Adjust the CSS in the `style.css` file to change the styling and appearance of the website.
   
-- Utilize JavaScript in the `index.html` file for any interactive features you wish to add.
+   - Utilize JavaScript in the `index.html` file for any interactive features you wish to add.
 
 ## Technologies
 
-This portfolio website was built using the following technologies :
+- This portfolio website was built using the following technologies :
 
 | HTML | CSS | JavaScript | Google Fonts |
 | :---: | :---: | :---: | :---: |
