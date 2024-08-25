@@ -1,12 +1,6 @@
-<h1 align="center" id="header">Mrityunjay Pathak</h1>
-
-<a href="https://themrityunjaypathak.github.io/"><img src="https://github.com/user-attachments/assets/23052054-cbd8-42ab-a703-c7e7f701b873"></a>
-
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Technologies](#technologies)
 - [License](#license)
 
@@ -68,36 +62,6 @@
 
 𝗟𝗶𝗻𝗸 𝗼𝗳 𝗙𝗼𝗿𝗺𝘀𝗽𝗿𝗲𝗲 : [Formspree](https://formspree.io/)
 
-## Installation
-
-- To run this website locally on your computer, follow these steps :
-
-1. Clone this repository to your local machine using Git : 
-
-   ```bash
-   git clone https://github.com/TheMrityunjayPathak/TheMrityunjayPathak.github.io.git
-   ```
-
-2. Navigate to the project directory :
-
-   ```bash
-   cd your-portfolio
-   ```
-
-3. Open the `index.html` file in your preferred web browser. 
-
-## Usage
-
-- Customize it with your own projects, content, and contact details.
-
-- To customize the website :
-
-   - Modify the HTML in `index.html` to update your project descriptions, images, and content.
-  
-   - Adjust the CSS in the `style.css` file to change the styling and appearance of the website.
-  
-   - Utilize JavaScript in the `index.html` file for any interactive features you wish to add.
-
 ## Technologies
 
 - This portfolio website was built using the following technologies :
@@ -118,7 +82,6 @@
 - Enjoy showcasing your work and experiences!
 
 <div align="right">
- 
-<a href="#header"><img src="https://github.com/TheMrityunjayPathak/TheMrityunjayPathak/blob/main/arrow.png" width="4%"></a>
+
 
 </div>
